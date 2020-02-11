@@ -1,0 +1,65 @@
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Righteous|UnifrakturMaguntia&display=swap');
+
+
+body {
+  background: white;
+  font-family: 'Righteous', cursive;
+  font-size: 3rem;
+  text-align: justify;
+}
+
+
+
+
+
+a {
+  font-weight: bold;
+  color: black;
+  text-decoration: inherit;
+  text-align: center;
+
+}
+
+a:hover{
+    color: red;
+    text-decoration: underline;
+    font-family: 'UnifrakturMaguntia', cursive;
+
+}
+h1{
+    background: white;
+    font-family: 'Righteous', cursive;
+    font-size: 20rem;
+    font-weight: bold;
+    text-align: center;
+
+}
+#container {
+
+  display: flex;           /* establish flex container */
+  flex-direction: column;  /* make main axis vertical */
+  justify-content: center; /* center items vertically, in this case */
+  align-items: center;     /* center items horizontally, in this case */
+  height: 99vh;
+}
+
+.box {
+  width: 75%;
+  margin: 5px;
+  text-align: justify;;     /* will center text in <p>, which is not a flex item */
+}
+
+p, li {
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+href {
+
+}
